@@ -1,6 +1,6 @@
-baseURL = "https://example.org"
+baseURL = "https://kylinhou.github.io/"
 languageCode = "zh-cn"
-title = "Hugo Canoe Theme"
+title = "Kylin Blog"
 
 
 theme = "canoe"
@@ -14,7 +14,7 @@ hasCJKLanguage = true
 
 
 [params]
-  author = "Kevin Tan"
+  author = "Kylin Hou"
   description = "Tempora mutantur, nos et mutamur in illis ..."
   copyright = "Copyleft@Kevin Tan"
  # date format convert: http://fuckinggodateformat.com/
@@ -57,12 +57,17 @@ hasCJKLanguage = true
     url = "/"
 
 [[menu.main]]
-    name = "Archive"
+    name = "归档"
     weight = 2
     url = "/archive/"
+	
+[[menu.main]]
+    name = "分类"
+    weight = 3
+    url = "/categories/"
     
 [[menu.main]]
-    name = "About"
+    name = "关于"
     weight = 6
     url = "/about/"
 
@@ -100,12 +105,12 @@ hasCJKLanguage = true
 [[menu.social]]
   pre = "<svg class='svg-icons svg-icons-twitter'><use xlink:href='#svg-icons-twitter'></use></svg>"
   name = "Twitter"
-  url = "https://twitter.com/kevinsfork"
+  url = ""
 
 [[menu.social]]
   pre = "<svg class='svg-icons svg-icons-sina-weibo'><use xlink:href='#svg-icons-sina-weibo'></use></svg>"
   name = "Weibo"
-  url = "http://weibo.com/kevinclasky"
+  url = ""
 
 [blackfriday]
   extensions = ["laxHtmlBlocks","noEmptyLineBeforeBlock"]
